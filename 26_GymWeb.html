@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>A K H A A D A A </title>
+    <style>
+        
+        body 
+        {
+            margin:0px;
+            padding:0px;
+            background:url('Bliss Evening.png');
+            color: beige;
+        }
+
+        .left
+        {   display: inline-block;
+            /* border:3px solid orange; */
+            position:absolute;
+            top:5px;
+            left: 10px;
+            text-align: center;
+            font-size: x-large;
+            color:azure;
+        }
+
+        .left img
+        {
+            width:180px;
+
+        }
+
+        .mid
+        { 
+            display:block;
+            width:39%;
+            margin:20px auto;
+            /* border:6px solid white; */
+            padding: 10px;
+            
+        }
+
+        .right
+        {
+            position:absolute;
+            right:34px;
+            top:20px;
+            /* border:6px solid rgb(143, 186, 143); */
+            padding: 10px;
+        }
+
+        .navbar
+        {
+            position: fixed;
+            display:inline-block;
+           
+        }
+
+        .navbar li
+        {
+            display:inline-block;
+            text-decoration: none;
+            font-size: 18px;
+        }
+
+        .navbar a
+        {
+            color:white;
+            margin: 4px;
+            padding:4px;
+
+        }
+
+        .navbar a:hover , .navbar a:active
+        {
+            color:black;
+            text-decoration:underline;
+        }
+
+        .btn
+        {
+            margin: 20px;
+            padding:10px;
+            background-color: antiquewhite;
+            cursor: pointer;
+        }
+        .btn:hover
+        {
+            background-color: mediumvioletred;
+        }
+
+        .container
+        {
+            /* border:5px solid navy; */
+            margin: 139px 14px;
+            padding: 57px 13px;
+            width:38%;
+            border-radius:12px;
+            text-align: center;
+            color: white ;
+        }
+
+        .submit
+        {
+            background-color:greenyellow; 
+            border-radius: 24px;
+        }
+
+        .reset
+        {
+            background-color:red;
+            border-radius: 24px;
+        }
+
+        .form-group input
+        {
+            /* text-align: center; */
+            display:absolute;
+            wiidth:34px;
+            padding:6px;
+            border:2px solid black;
+            margin:3px auto;
+
+        }
+    </style>
+</head>
+
+<link rel >
+<body>
+    
+    <header class="header">
+       
+        <!--Left Box for Logo-->>
+       <div class="left">
+            <img src="Akhaada Logo.png" alt ="Error">
+            <div>A K H A A D A </div>
+       </div>
+
+       <!--Mid Box for Navbar-->>
+       <div class="mid">
+            <ul class ="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>    
+       </div>
+
+       <!--Right Box for Buttons-->>
+       <div class="right">  
+            <button class="btn">Call Us</button>
+            <button class="btn">Email us</button> 
+
+       </div>
+    </header>
+
+    <div class="container">
+        
+        <h1> Join the Best Gym in Dhule</h1>
+        
+        <form action ="noaction.php">
+            
+            <div class="form-group">
+                Name&nbsp&nbsp:&nbsp<input type ="text" name="" placeholder="Enter Your Name">
+            </div>
+
+            <div class="form-group">
+                <br>Mobile&nbsp&nbsp:&nbsp<input type ="text" name="" placeholder="Enter Your Mobile No.">
+            </div>
+
+            <div class="form-group">
+                <br>Email&nbsp&nbsp:&nbsp<input type ="text" name="" placeholder="Enter your Email">
+            </div>
+
+            <div class="form-group">
+                <br>Age&nbsp&nbsp:&nbsp<input type="number" name="" placeholder="Age">
+            </div>
+
+            <div class="form-group">
+                <br>Gender&nbsp&nbsp:&nbspMale  <input type ="radio" name="">  Female  <input type="radio">  Other  <input type="radio">
+            </div><br>
+
+            <button class="submit">
+                <input type="submit">
+            </button>
+
+            <button class="reset">
+                <input type="reset">
+            </button>
+    </div>    
+    
+</body>
+</html>
